@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background-image: linear-gradient(to bottom, #c1f2d1, #18ccae, #18cc54);
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+table tr th, td {
+	border: 1px solid grey;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid grey;
+}
+
+select {
+	width: 200px;
+	font-size: 18px;
+	text-align: center;
+	text-align-last: center;
+}
+
+select option {
+	text-align: center;
+	text-align-last: center;
+}
+
+form input {
+	font-size: 18px;
+	letter-spacing: 2px;
+	width: 300px;
+}
+
+input[type="submit"] {
+	padding: 5px;
+	width: 50%;
+	color: white;
+	background-color: black;
+	border: none;
+	cursor: pointer;
+}

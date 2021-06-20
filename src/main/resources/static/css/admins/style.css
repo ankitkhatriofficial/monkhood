@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 85vh;
+	width: 100%;
+}
+
+.upper-container ul {
+	display: flex;
+	list-style: none;
+	font-size: 17px;
+	background-color: #ea6262;
+}
+
+.upper-container ul li {
+	padding: 12px;
+}
+
+.upper-container ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.active {
+	background-color: black;
+	height: 28px;
+}
+
+.bottom-container {
+	background-color: #aeeeef;
+	color: black;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	color: black;
+	color: black;
+}
+
+.bottom-container table tr th, td {
+	border: 2px solid white;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.bottom-container form table {
+	width: 750px;
+	text-align: center;
+	width: 750px;
+}
+
+.bottom-container form table input {
+	font-size: 18px;
+	letter-spacing: 2px;
+	width: 450px;
+}
+
+.bottom-container form table select {
+	width: 200px;
+	font-size: 18px;
+	text-align: center;
+	text-align-last: center;
+}
+
+.bottom-container form table select option {
+	text-align: center;
+	text-align-last: center;
+}
+
+button {
+	background-color: #ea6262;
+	padding: 5px;
+	font-size: 15px;
+	/* font-weight: bold; */
+	border: 1px solid black;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+}
+
+input[type="radio"] {
+	height: 20px;
+}
+
+input[type="submit"] {
+	padding: 5px;
+	/* background-image: linear-gradient(to right, red, orange, yellow); */
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+	width: 130px;
+	font-size: 16px;
+}
+
+input[type="submit"] :hover {
+	opacity: .8;
+}

@@ -1,0 +1,100 @@
+body {
+  box-sizing: border-box;
+  background-color: #fdf2cc;
+  font-family: 'KoHo', sans-serif;
+  
+}
+
+:focus {
+  outline: none;
+}
+
+.top{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 1rem;
+}
+
+input[type="checkbox"] { 
+  border-radius: 2000rem;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*  */
+.common {
+  position: relative;
+  border-radius: 0.3rem;
+  padding-left: 0.5rem;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+  
+}
+
+.input {
+  width: 90%;
+  border: 0;
+
+  border-bottom: 2px solid #92baa1;
+}
+
+input[type="checkbox"] {
+background-color: aqua;
+}
+.input ~ .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  
+}
+
+.input:focus ~ .border {
+  width: 90%;
+  transition: 0.5s;
+}
+
+.container {
+  padding-bottom: 2rem;
+  width: 20rem;
+}
+
+.border {
+  border: 1px solid #4285f4 !important;
+}
+
+.red {
+  color: red;
+}
+
+.whole {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
